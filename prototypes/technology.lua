@@ -5,25 +5,16 @@ data:extend(
 		name = "warehousing",
 		icon = "__Warehouses__/graphics/research/warehousing.png",
 		icon_size = 128,
-		effects =
-		{
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "storehouse",
-			},
+		effects = {
+			{type = "unlock-recipe", recipe = "storehouse"},
+			{type = "unlock-recipe", recipe = "warehouse"},
 		},
-		prerequisites = {"steel-processing"},
-		unit =
-		{
-			count = 40,
-			ingredients = {{ "science-pack-1", 1}},
-			time = 20
+		prerequisites = {"logistic-robotics"},
+		unit = {
+			count = 100,
+			ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
+			time = 30,
 		},
 		order = "c-a"
 	},
 })
-
