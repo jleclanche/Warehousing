@@ -17,11 +17,11 @@ data:extend({
 		expensive = {
 			energy_required = 12,
 			ingredients = {
-				{"iron-plate", 20},
-				{"steel-plate", 20},
-				{"stone-brick", 20},
-				{"wooden-chest", 10},
-				{"iron-chest", 10},
+				{"iron-plate", 40},
+				{"steel-plate", 40},
+				{"stone-brick", 40},
+				{"wooden-chest", 20},
+				{"iron-chest", 20},
 			},
 			result = "storehouse",
 		},
