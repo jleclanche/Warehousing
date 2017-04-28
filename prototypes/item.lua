@@ -12,7 +12,7 @@ data:extend({
 		subgroup = "storage",
 		order = "d[items]-b[steel-chest]",
 		place_result = "warehouse-basic",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -22,7 +22,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-passive-provider]",
 		place_result = "warehouse-passive-provider",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -32,7 +32,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-storage]",
 		place_result = "warehouse-storage",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -42,7 +42,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-active-provider]",
 		place_result = "warehouse-active-provider",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -52,7 +52,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-requester]",
 		place_result = "warehouse-requester",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -62,7 +62,7 @@ data:extend({
 		subgroup = "storage",
 		order = "d[items]-b[steel-chest]",
 		place_result = "storehouse-basic",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -72,7 +72,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-passive-provider]",
 		place_result = "storehouse-passive-provider",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -82,7 +82,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-storage]",
 		place_result = "storehouse-storage",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -92,7 +92,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-active-provider]",
 		place_result = "storehouse-active-provider",
-		stack_size = 15
+		stack_size = 1
 	},
 	{
 		type = "item",
@@ -102,6 +102,6 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "b[storage]-c[logistic-chest-requester]",
 		place_result = "storehouse-requester",
-		stack_size = 15
+		stack_size = 1
 	},
 })
