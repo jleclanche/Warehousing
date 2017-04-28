@@ -2,8 +2,8 @@ data:extend(
 {
 	{
 		type = "technology",
-		name = "warehouse-research",
-		icon = "__Warehouses__/graphics/research/warehouse-research.png",
+		name = "warehousing",
+		icon = "__Warehouses__/graphics/research/warehousing.png",
 		icon_size = 128,
 		effects =
 		{
