@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "container",
 		name = "storehouse",
-		icon = "__Warehouses__/graphics/icons/storehouse-basic.png",
+		icon = "__Warehouses__/graphics/icons/storehouse.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 4, result = "storehouse"},
 		max_health = 650,
@@ -17,7 +17,7 @@ data:extend({
 		fast_replaceable_group = "container",
 		inventory_size = 150,
 		picture = {
-			filename = "__Warehouses__/graphics/entity/storehouse-basic.png",
+			filename = "__Warehouses__/graphics/entity/storehouse.png",
 			priority = "high",
 			width = 129,
 			height = 100,
@@ -27,7 +27,7 @@ data:extend({
 	{
 		type = "container",
 		name = "warehouse",
-		icon = "__Warehouses__/graphics/icons/warehouse-basic.png",
+		icon = "__Warehouses__/graphics/icons/warehouse.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 5, result = "warehouse"},
 		max_health = 1000,
@@ -42,7 +42,7 @@ data:extend({
 		fast_replaceable_group = "container",
 		inventory_size = 2000,
 		picture = {
-			filename = "__Warehouses__/graphics/entity/warehouse-basic-shadow.png",
+			filename = "__Warehouses__/graphics/entity/warehouse.png",
 			priority = "high",
 			width = 260,
 			height = 240,
