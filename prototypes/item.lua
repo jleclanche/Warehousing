@@ -1,102 +1,22 @@
 data:extend({
 	{
 		type = "item",
-		name = "warehouse-basic",
+		name = "warehouse",
 		icon = "__Warehouses__/graphics/icons/warehouse-basic.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "storage",
 		order = "d[items]-b[steel-chest]",
-		place_result = "warehouse-basic",
-		stack_size = 1
+		place_result = "warehouse",
+		stack_size = 1,
 	},
 	{
 		type = "item",
-		name = "warehouse-passive-provider",
-		icon = "__Warehouses__/graphics/icons/warehouse-passive-provider.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-passive-provider]",
-		place_result = "warehouse-passive-provider",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "warehouse-storage",
-		icon = "__Warehouses__/graphics/icons/warehouse-storage.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-storage]",
-		place_result = "warehouse-storage",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "warehouse-active-provider",
-		icon = "__Warehouses__/graphics/icons/warehouse-active-provider.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-active-provider]",
-		place_result = "warehouse-active-provider",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "warehouse-requester",
-		icon = "__Warehouses__/graphics/icons/warehouse-requester.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-requester]",
-		place_result = "warehouse-requester",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "storehouse-basic",
+		name = "storehouse",
 		icon = "__Warehouses__/graphics/icons/storehouse-basic.png",
 		flags = {"goes-to-quickbar"},
 		subgroup = "storage",
 		order = "d[items]-b[steel-chest]",
-		place_result = "storehouse-basic",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "storehouse-passive-provider",
-		icon = "__Warehouses__/graphics/icons/storehouse-passive-provider.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-passive-provider]",
-		place_result = "storehouse-passive-provider",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "storehouse-storage",
-		icon = "__Warehouses__/graphics/icons/storehouse-storage.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-storage]",
-		place_result = "storehouse-storage",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "storehouse-active-provider",
-		icon = "__Warehouses__/graphics/icons/storehouse-active-provider.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-active-provider]",
-		place_result = "storehouse-active-provider",
-		stack_size = 1
-	},
-	{
-		type = "item",
-		name = "storehouse-requester",
-		icon = "__Warehouses__/graphics/icons/storehouse-requester.png",
-		flags = {"goes-to-quickbar"},
-		subgroup = "logistic-network",
-		order = "b[storage]-c[logistic-chest-requester]",
-		place_result = "storehouse-requester",
-		stack_size = 1
+		place_result = "storehouse",
+		stack_size = 1,
 	},
 })

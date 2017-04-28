@@ -9,11 +9,11 @@ data:extend(
 		{
 			{
 				type = "unlock-recipe",
-				recipe = "warehouse-basic",
+				recipe = "warehouse",
 			},
 			{
 				type = "unlock-recipe",
-				recipe = "storehouse-basic",
+				recipe = "storehouse",
 			},
 		},
 		prerequisites = {"steel-processing"},
@@ -24,59 +24,6 @@ data:extend(
 			time = 20
 		},
 		order = "c-a"
-	},
-	{
-		type = "technology",
-		name = "warehouse-logistics-research",
-		icon = "__Warehouses__/graphics/research/warehouse-logistics-research.png",
-		icon_size = 128,
-		effects =
-		{
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse-passive-provider",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse-storage",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse-active-provider",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "warehouse-requester",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "storehouse-passive-provider",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "storehouse-storage",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "storehouse-active-provider",
-			},
-			{
-				type = "unlock-recipe",
-				recipe = "storehouse-requester",
-			},
-		},
-		prerequisites = { "construction-robotics", "logistic-robotics", "warehouse-research" },
-		unit =
-		{
-			count = 25,
-			ingredients = {
-				{ "science-pack-1", 2},
-				{ "science-pack-2", 2},
-				{ "science-pack-3", 1}
-			},
-			time = 30
-		},
-		order = "c-k-a"
 	},
 })
 
