@@ -53,7 +53,7 @@ No.|Warehouse|Storehouse
 
 Recipies
 ---
-    
+
 ##### Basic warehouse / storehouse
 
 Item|Qty
@@ -156,3 +156,9 @@ Advanced circuits|2
 [storehouse-requester]:https://raw.githubusercontent.com/Anoyomouse/Warehousing/master/graphics/entity/storehouse-requester.png
 [br]:https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png
 [pl]:https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pl.png
+
+
+## License
+
+This project is licensed under the terms of the MIT license.
+The full license text is available in the LICENSE file.

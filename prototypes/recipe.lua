@@ -1,14 +1,9 @@
---[[ Copyright (c) David-John Miller AKA Anoyomouse 2016
- * Part of the warehousing mod
- *
- * See LICENCE in the project directory for licence information
---]]
 data:extend({
 	{ -- Basic Warehouse
 		type = "recipe",
 		name = "warehouse-basic",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"steel-plate",60},
 			{"iron-plate",100},
@@ -21,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "warehouse-passive-provider",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-passive-provider",1},
@@ -34,7 +29,7 @@ data:extend({
 		type = "recipe",
 		name = "warehouse-storage",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-storage",1},
@@ -48,7 +43,7 @@ data:extend({
 		type = "recipe",
 		name = "warehouse-active-provider",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-active-provider",1},
@@ -61,7 +56,7 @@ data:extend({
 		type = "recipe",
 		name = "warehouse-requester",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"warehouse-basic",1},
 			{"logistic-chest-requester",1},
@@ -74,7 +69,7 @@ data:extend({
 		type = "recipe",
 		name = "storehouse-basic",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"steel-plate",20},
 			{"iron-plate",40},
@@ -87,7 +82,7 @@ data:extend({
 		type = "recipe",
 		name = "storehouse-passive-provider",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"storehouse-basic",1},
 			{"logistic-chest-passive-provider",1},
@@ -100,7 +95,7 @@ data:extend({
 		type = "recipe",
 		name = "storehouse-storage",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"storehouse-basic",1},
 			{"logistic-chest-storage",1},
@@ -114,7 +109,7 @@ data:extend({
 		type = "recipe",
 		name = "storehouse-active-provider",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"storehouse-basic",1},
 			{"logistic-chest-active-provider",1},
@@ -127,7 +122,7 @@ data:extend({
 		type = "recipe",
 		name = "storehouse-requester",
 		enabled = "false",
-		ingredients = 
+		ingredients =
 		{
 			{"storehouse-basic",1},
 			{"logistic-chest-requester",1},

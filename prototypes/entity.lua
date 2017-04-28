@@ -1,9 +1,3 @@
---[[ Copyright (c) David-John Miller AKA Anoyomouse 2016
- * Part of the warehousing mod
- *
- * See LICENCE in the project directory for licence information
---]]
-
 function define_warehouse_connector(mainOffset)
 	local logisticAnimationOffset = {0.015625, 0.234375};
 	local result =
