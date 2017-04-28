@@ -6,6 +6,6 @@
 	"author": "jleclanche",
 	"contact": "jerome@leclan.ch",
 	"homepage": "https://github.com/jleclanche/factorio-warehouses",
-	"description": "Warehousing that allows you to have large storage buildings. Store all the things! Storehouses by Hanniballo",
+	"description": "Warehouses and Storehouses to store all the things (No logistics).",
 	"dependencies": ["base >= 0.15.0"]
 }
