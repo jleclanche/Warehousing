@@ -1,26 +1,31 @@
 data:extend({
-	{ -- Warehouse
-		type = "recipe",
-		name = "warehouse",
-		enabled = "false",
-		ingredients = {
-			{"steel-plate",60},
-			{"iron-plate",100},
-			{"stone-brick",25},
-			{"wooden-chest",10},
-		},
-		result = "warehouse",
-	},
-	{ -- Storehouse
+	{
 		type = "recipe",
 		name = "storehouse",
 		enabled = "false",
+		energy_required = 8,
 		ingredients = {
-			{"steel-plate",20},
-			{"iron-plate",40},
-			{"stone-brick",10},
-			{"wooden-chest",5},
+			{"iron-plate", 20},
+			{"steel-plate", 20},
+			{"stone-brick", 20},
+			{"wooden-chest", 10},
+			{"iron-chest", 10},
 		},
 		result = "storehouse",
+	},
+	{
+		type = "recipe",
+		name = "warehouse",
+		enabled = "false",
+		energy_required = 10,
+		ingredients = {
+			{"iron-plate", 30},
+			{"steel-plate", 30},
+			{"stone-brick", 40},
+			{"wooden-chest", 10},
+			{"iron-chest", 10},
+			{"steel-chest", 10},
+		},
+		result = "warehouse",
 	},
 })

@@ -1,7 +1,7 @@
 data:extend({
 	{
-		type = "container",
 		name = "storehouse",
+		type = "container",
 		icon = "__Warehouses__/graphics/icons/storehouse.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 8, result = "storehouse"},
@@ -15,7 +15,7 @@ data:extend({
 		collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
 		selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 		fast_replaceable_group = "container",
-		inventory_size = 150,
+		inventory_size = 800,
 		picture = {
 			filename = "__Warehouses__/graphics/entity/storehouse.png",
 			priority = "high",
@@ -25,8 +25,8 @@ data:extend({
 		},
 	},
 	{
-		type = "container",
 		name = "warehouse",
+		type = "container",
 		icon = "__Warehouses__/graphics/icons/warehouse.png",
 		flags = {"placeable-neutral", "placeable-player", "player-creation"},
 		minable = {mining_time = 10, result = "warehouse"},
